@@ -212,7 +212,6 @@ def img2vector(filename):
     示例
     >>> testVector = kNN.img2vector('digits/testDigits/0_13.txt')
     >>> testVector[0,0:31]
-
     array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 1., 1.,
            1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])
     >>> testVector[0,32:63]
