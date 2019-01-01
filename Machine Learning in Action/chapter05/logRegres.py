@@ -13,12 +13,6 @@ def loadDataSet():
 
 def sigmoid(inX):
     return 1.0/(1+exp(-inX))
-    '''
-    if all(inX) >= 0:
-        return 1.0/(1+exp(-inX))
-    else:
-        return exp(inX)/(1+exp(inX))
-    '''
 
 def gradAscent(dataMatIn, classLabels):
     """
@@ -26,7 +20,7 @@ def gradAscent(dataMatIn, classLabels):
 
     Logistic Regression梯度上升优化算法
 
-    输入：训练样本集dataMatIn， 训练样本的标签classLabels
+    输入：训练样本集dataMatIn，训练样本的标签classLabels
     输出：参数向量weights
 
     参数
