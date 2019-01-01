@@ -251,7 +251,7 @@ def handwritingClassTest():
     the classifier came back with: 8, the real answer is: 8
     .
     .
-    the classifier came back with: 9, the real answer is: 9
+    the classifier came back with: 9, the real answer is: v9
     the total number of errors is: 10
     the total error rate is: 0.010571
 
