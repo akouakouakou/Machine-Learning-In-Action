@@ -1,4 +1,4 @@
-﻿from numpy import *
+from numpy import *
 import operator
 from os import listdir
 
@@ -7,7 +7,7 @@ def createDataSet():
     labels = ['A','A','B','B']
     return group, labels
 
-def classify0( inX, dataSet, labels, k):
+def classify0(inX, dataSet, labels, k):
     """
     ----------------------------------------------------------------------------
 
