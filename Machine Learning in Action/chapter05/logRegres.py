@@ -18,7 +18,7 @@ def gradAscent(dataMatIn, classLabels):
     """
     ----------------------------------------------------------------------------
 
-    Logistic Regression梯度上升优化算法
+    Logistic Regression 梯度上升优化算法
 
     输入：训练样本集dataMatIn，训练样本的标签classLabels
     输出：参数向量weights
