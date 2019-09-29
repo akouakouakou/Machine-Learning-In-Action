@@ -137,7 +137,7 @@ def datingClassTest():
     分类器针对约会网站测试代码
 
     输入：NULL
-    输出：测试样本的预测类别classifierResult，测试样本的真实类别datingLabels[i]，错误率errorRate
+    输出：测试样本的预测类别classifierResult，测试样本的真实类别datingLabels[i]，预测错误率errorRate
 
     示例
     >>> kNN.datingClassTest()
